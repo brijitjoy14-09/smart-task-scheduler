@@ -202,3 +202,17 @@ http://localhost:5173
 * Calendar integration
 * More advanced scheduling constraints
 * Deployment to a cloud platform
+
+  ## Live Demo
+
+**Frontend:** https://smart-task-scheduler-silk.vercel.app/
+
+**Backend:** https://smart-task-scheduler-backend.onrender.com
+
+## Deployment
+
+- Frontend: Vercel
+- Backend: Render
+- Database: Aiven MySQL
+- Frontend Framework: React + Vite
+- Backend Framework: Spring Boot

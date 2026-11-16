@@ -13,7 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins ={ "http://localhost:5173",
+"http://localhost:5174",
+    "http://localhost:5175",
+    "https://smart-task-scheduler-silk.vercel.app"})
 @RestController
 public class TaskController {
 
